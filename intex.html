@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuradha Sewwandi | Cricket Player & Coach</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-blue-600">AS</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                    <a href="#career" class="hover:text-blue-600 transition-colors">Career</a>
+                    <a href="#coaching" class="hover:text-blue-600 transition-colors">Coaching</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-50 pt-20">
+        <div class="container mx-auto px-6 py-12">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 opacity-0 transform translate-y-12" id="hero-title">
+                    Anuradha Sewwandi
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8 opacity-0 transform translate-y-12" id="hero-subtitle">
+                    Cricket Player & Coach
+                </p>
+                <div class="opacity-0 transform translate-y-12" id="hero-cta">
+                    <div class="inline-flex space-x-4">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                            <span class="text-blue-600 font-bold">ODI</span>
+                        </div>
+                        <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                            <span class="text-blue-600 font-bold">T20I</span>
+                        </div>
+                        <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                            <span class="text-blue-600 font-bold">Coach</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-center">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <p class="text-lg text-gray-600">
+                        As a dedicated sportswoman, I've contributed significantly to women's cricket in Sri Lanka since the early 2000s. My journey in cricket has been marked by passion, perseverance, and a commitment to excellence.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Playing as an all-rounder, I've developed a versatile skill set that allows me to contribute both with bat and ball, making me a valuable asset to any team I represent.
+                    </p>
+                </div>
+                <div class="bg-blue-100 p-8 rounded-2xl">
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Batting</span>
+                            <div class="w-48 h-2 bg-blue-200 rounded-full">
+                                <div class="w-36 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Bowling</span>
+                            <div class="w-48 h-2 bg-blue-200 rounded-full">
+                                <div class="w-40 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">Leadership</span>
+                            <div class="w-48 h-2 bg-blue-200 rounded-full">
+                                <div class="w-44 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="career" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-center">Career Highlights</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <h3 class="text-xl font-bold mb-4">Domestic Cricket</h3>
+                    <p class="text-gray-600">Represented Colts Cricket Club Women's team as a middle-order batswoman and medium-pace bowler.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <h3 class="text-xl font-bold mb-4">International Career</h3>
+                    <p class="text-gray-600">Played in multiple ODIs and T20Is for Sri Lanka, contributing with both bat and ball.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <h3 class="text-xl font-bold mb-4">Achievements</h3>
+                    <p class="text-gray-600">Known for technical batting and disciplined bowling spells in crucial matches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaching Section -->
+    <section id="coaching" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-center">Coaching Journey</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-blue-600">Developing Future Stars</h3>
+                    <p class="text-lg text-gray-600">
+                        Beyond playing, I'm passionate about nurturing the next generation of cricket talent. Through coaching and mentoring, I help young players develop their skills and achieve their full potential.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                <span class="text-blue-600 font-bold">01</span>
+                            </div>
+                            <span class="text-lg">Technical Training</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                <span class="text-blue-600 font-bold">02</span>
+                            </div>
+                            <span class="text-lg">Mental Conditioning</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                <span class="text-blue-600 font-bold">03</span>
+                            </div>
+                            <span class="text-lg">Strategy Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-blue-500 to-blue-600 p-8 rounded-2xl text-white">
+                    <h3 class="text-2xl font-bold mb-6">Cricket Development Programs</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Grassroots Development</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Women's Cricket Promotion</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Youth Training Camps</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <div class="text-2xl font-bold mb-4">Anuradha Sewwandi</div>
+                <p class="text-gray-400">Cricket Player & Coach</p>
+                <div class="mt-6 space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Twitter</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize GSAP
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Hero animations
+        gsap.to("#hero-title", {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            delay: 0.5
+        });
+
+        gsap.to("#hero-subtitle", {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            delay: 0.7
+        });
+
+        gsap.to("#hero-cta", {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            delay: 0.9
+        });
+
+        // Scroll animations
+        gsap.utils.toArray('section').forEach(section => {
+            gsap.from(section, {
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 80%",
+                    end: "top 50%",
+                    scrub: 1
+                }
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
